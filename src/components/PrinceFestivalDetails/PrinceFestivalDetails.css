@@ -1,0 +1,35 @@
+.festivalwrapper{
+    margin:10px 25px;
+}
+
+.content{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:minmax(100px, auto);
+    grid-gap: 10px;
+}
+
+.card{
+    border-radius: 20px !important;
+}
+
+.cardchild{
+    background: #483A2F;
+    color: #fff;
+}
+
+.child1body{
+    background: #FDF2B0 !important;
+}
+
+.videocontent{
+    margin-top: 50px;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color:#333;
+}

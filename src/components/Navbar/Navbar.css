@@ -1,0 +1,24 @@
+.navbar{
+    background: #483A2F !important;
+    margin-top: 15px;
+}
+
+.fa-bars{
+
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.fa-mobile-alt{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.fa-arrow-right{
+    color:white;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 15px;
+    cursor: pointer;
+}

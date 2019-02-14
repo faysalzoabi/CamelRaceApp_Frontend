@@ -1,0 +1,16 @@
+
+.table-custom{
+    background: #483A2F !important;
+    color: #FDF2B0;
+    display: grid;
+    grid-template-columns: repeat(5,minmax(100px, 1fr));
+    margin: 10px auto;
+    text-decoration: none;
+    padding: 0;
+    padding-left: 5px;
+    justify-items: center;
+}
+
+.table-custom li{
+    list-style-type: none;
+}
