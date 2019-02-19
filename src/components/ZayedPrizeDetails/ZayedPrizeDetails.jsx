@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { connect } from 'react-redux';
-import "./PrinceFestivalDetails.css";
+import "./ZayedPrizeDetails.css";
 import { fetchEvents } from '../../store/actions';
 
-export class PrinceFestivalDetails extends Component {
+export class ZayedPrizeDetails extends Component {
 
   handleClick =(id) => {
     console.log('hellooo');
@@ -23,12 +23,12 @@ export class PrinceFestivalDetails extends Component {
                 <div
                   className="cardtitle"
                   data-toggle="collapse"
-                  data-target={`#collapseOneA${id}`}
+                  data-target={`#collapseOneC${id}`}
                   onClick={() => this.handleClick(id)}
                 >
-                  Crown Prince Fetisval{" "}
+                  Zayed Grand Prize{" "}
                   <span className="mr-3 float-right">
-                    12<i className="fas fa-angle-down rotate-icon ml-2" />
+                    8<i className="fas fa-angle-down rotate-icon ml-2" />
                   </span>
                 </div>
               </h6>
@@ -37,7 +37,7 @@ export class PrinceFestivalDetails extends Component {
               style={{ backgroundColor: this.props.selectedColor }}
               className="card-body child1body collapse"
               data-parent="#child1"
-              id={`collapseOneA${id}`}
+              id={`collapseOneC${id}`}
             >
               <div className="content">
                 <div>
@@ -89,9 +89,7 @@ const mapStateToProps = (state) => {
     event:state.event
   }
 }
-export default connect(mapStateToProps)(PrinceFestivalDetails);
-
-
+export default connect(mapStateToProps)(ZayedPrizeDetails);
 
 
 

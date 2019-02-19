@@ -1,19 +1,16 @@
-.racerdetails{
-    margin-right: 10px;
-    margin-left: 10px;
+.racerdetails {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
 }
 
-.card-custom{
-    background:#FDF2B0;
+.card-header {
+    padding: 12px 0;
 }
 
-.card-header{
-    padding:12px 0;
-}
-
-.namelist{
+.namelist {
     display: grid;
-    grid-template-columns: repeat(5,minmax(100px, 1fr));
+    grid-template-columns: repeat(5, minmax(100px, 1fr));
     justify-items: center;
     align-items: center;
     text-decoration: none;
@@ -21,6 +18,6 @@
     margin: 0;
 }
 
-.namelist li{
+.namelist li {
     list-style-type: none;
 }

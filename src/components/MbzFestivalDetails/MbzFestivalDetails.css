@@ -32,9 +32,7 @@
 
 hr {
     border: none;
-    height: 3px;
-    /* Set the hr color */
+    height: 1px;
     color: #333;
-    /* old IE */
     background-color: #333;
 }
